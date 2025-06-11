@@ -40,7 +40,8 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="#"
+                                href="https://botai-alpha-ten.vercel.app/"
+                                target="_blank"
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
                                 View Project 
@@ -74,7 +75,8 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="#"
+                                href="https://x-medify-sigma.vercel.app/"
+                                target="_blank"
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
                                 View Project 
@@ -142,7 +144,8 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="#"
+                                href="https://expense-tracker-beryl-phi-69.vercel.app/"
+                                target="_blank"
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
                                 View Project 
