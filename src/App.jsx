@@ -1,18 +1,18 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom"
-import Home from './pages/Home';
-import NotFound from './pages/NotFund';
-import { Toaster } from "@/components/ui/toaster";
+import { useState } from 'react';
+
+import LoadingScreen from "./components/LoadingScreen";
+import './index.css';
+
 function App() {
-  
+  const [isLoading,setIsLoading] = useState(false);
+
   return (
     <>
-    <Toaster/>
-      <BrowserRouter>
-        <Routes>
-          <Route index element={<Home/>}/>
-          <Route path='*' element={<NotFound/>}/>
-        </Routes>
-      </BrowserRouter>
+      {!isLoading && <LoadingScreen onComplete={() => setIsLoading(true)}/>}
+      {' '}
+      <div className={`min-h-screen transition-opacity duration-700 ${isLoading ? 'opacity-100' : 'opacity-0'} bg-black text-gray-100`}>
+
+      </div>
     </>
   )
 }
