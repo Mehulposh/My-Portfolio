@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import MobileMenu from './components/MobileMenu';
 import LoadingScreen from "./components/LoadingScreen";
 import Home from './components/sections/Home';
+import Projects from './components/sections/projects';
 import './index.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
         <Home/>
+        <Projects/>
       </div>
 
       
