@@ -5,6 +5,7 @@ import LoadingScreen from "./components/LoadingScreen";
 import Home from './components/sections/Home';
 import About from './components/sections/About';
 import Projects from './components/sections/projects';
+import Contact  from './components/sections/Contacts';
 import './index.css';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Home/>
         <Projects/>
         <About/>
+        <Contact/>
       </div>
 
       

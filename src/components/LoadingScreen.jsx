@@ -2,7 +2,7 @@ import { useEffect,useState } from "react";
 
 export default function LoadingScreen({onComplete}){
     const [text,settext] = useState('');
-    const fulltext = '123hellow world';
+    const fulltext = 'Welcome To My Profile';
 
     useEffect(() => {
         let idx = 0;
