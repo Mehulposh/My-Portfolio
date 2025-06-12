@@ -7,6 +7,20 @@ export default function Contact() {
         email: '',
         message: '',
     });
+
+    const SERVICE_ID = "service_ou0lb4l";
+    const TEMPLATE_ID = 'template_jaj7znc';
+    const PUBLIC_KEY = 'BVdo8V9zbp6zWcfB0';
+    
+    const handleSubmit = (e) =>{
+        e.preventDefault()
+
+        emailjs.sendForm(SERVICE_ID,TEMPLATE_ID,e.target,PUBLIC_KEY).then((result) => {
+            alert('Message Sent');
+            setFormData({name: '', email: '' , message: ''});
+        }) .catch(() => alert('Something went wrong try again'));
+
+    }
     return (
         <section 
             className="min-h-screen flex items-center justify-center py-20"
@@ -20,7 +34,9 @@ export default function Contact() {
                     Contact Me
                 </h2>
 
-                <form className="space-y-6">
+                <form
+                    onSubmit={handleSubmit} 
+                    className="space-y-6">
                     <div className="relative">
                         <input 
                             type="text"

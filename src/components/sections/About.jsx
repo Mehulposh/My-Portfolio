@@ -37,7 +37,7 @@ export default function About() {
                         applications and creating innovative solutions.
                     </p>
 
-                    <div className="grid grid-cols-1 md:gird-cols-2 gap-6">
+                    <div className="grid grid-cols-2 md:gird-cols-2 gap-6">
                         <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">
                                 FrontEnd
