@@ -6,6 +6,7 @@ import Home from './components/sections/Home';
 import About from './components/sections/About';
 import Projects from './components/sections/projects';
 import Contact  from './components/sections/Contacts';
+import Footer from './components/Footer';
 import './index.css';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
     <>
       {!isLoading && <LoadingScreen onComplete={() => setIsLoading(true)}/>}
       {' '}
-      <div className={`min-h-screen transition-opacity duration-700 
+      <div className={`scroll-smooth min-h-screen transition-opacity duration-700 
           ${isLoading ? 'opacity-100' : 'opacity-0'} bg-black text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -25,6 +26,7 @@ function App() {
         <Projects/>
         <About/>
         <Contact/>
+        <Footer/>
       </div>
 
       
