@@ -1,7 +1,9 @@
+import GitHubSection from '../Contributions';
+
 export default function Projects() {
     return (
         <section 
-            className="min-h-screen flex items-center justify-center py-20"
+            className="min-h-screen flex flex-col gap-10 items-center justify-center py-20"
             id="projects"
         >
             <div className="max-w-5xl mx-auto px-4">
@@ -110,7 +112,8 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="#"
+                                href="https://mehulposhattiwar4995-me-qkart-frontend-v2.vercel.app/"
+                                target='_blank'
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
                                 View Project 
@@ -153,6 +156,10 @@ export default function Projects() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div>
+                <GitHubSection/>
+                 {/* <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mehulposh&theme=github-compact&hide_border=true" alt="GitHub Contribution Graph"></img> */}
             </div>
         </section>
     )
