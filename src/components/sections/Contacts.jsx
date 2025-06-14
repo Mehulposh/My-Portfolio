@@ -105,7 +105,7 @@ export default function Contact() {
                     <a href="#">
                         <img src='/github-fill.svg' className="bg-white size-10 "/>
                     </a>
-                    <a href="#">
+                    <a href="https://www.linkedin.com/in/mehul-poshattiwar-885a891aa" target="_blank">
                         <img src='/linkedin-box-line.svg' className="bg-white size-10  "/>
                     </a>
                 </div>
