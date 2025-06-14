@@ -161,6 +161,15 @@ export default function Projects() {
                 <GitHubSection/>
                  {/* <img src="https://github-readme-activity-graph.vercel.app/graph?username=Mehulposh&theme=github-compact&hide_border=true" alt="GitHub Contribution Graph"></img> */}
             </div>
-        </section>
+            <div className="flex justify-between items-center">
+                <a 
+                    href='https://github.com/Mehulposh'
+                    target='_blank'
+                    className='text-white bg-blue-500 px-3 py-3 font-bold rounded '
+                >
+                    View More Projects
+                </a>
+            </div>
+        </section>      
     )
 }

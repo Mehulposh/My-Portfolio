@@ -97,6 +97,18 @@ export default function Contact() {
                         Send
                     </button>
                 </form>
+                <p className="text-center text-gray-400 py-4"> OR </p>
+                <div className="p-2 flex justify-center items-center gap-2">
+                    <a href="#">
+                        <img src='/instagram-line.svg' className="bg-white size-10 "/>
+                    </a>
+                    <a href="#">
+                        <img src='/github-fill.svg' className="bg-white size-10 "/>
+                    </a>
+                    <a href="#">
+                        <img src='/linkedin-box-line.svg' className="bg-white size-10  "/>
+                    </a>
+                </div>
             </div>
         </section>
     )

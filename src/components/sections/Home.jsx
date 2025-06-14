@@ -5,6 +5,10 @@ export default function Home(){
             className="min-h-screen flex items-center justify-center relative"
         >
             <div className="text-center z-10 px-4">
+                <div className="flex justify-center mb-3  ">
+                    <img src="/myprofileimage.jpg" alt="Mehul" className="h-50 border-5 border-white/11 p-1  rounded-[100%]"/>
+
+                </div>
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right" 
                 >
