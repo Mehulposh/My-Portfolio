@@ -12,7 +12,7 @@ export default function Home(){
                 <h1 className="text-5xl  md:text-7xl font-bold mb-6 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right" 
                 >
-                    Hi I'am Mehul Poshattiwar
+                    Hi I'am <br className="block md:hidden" /> Mehul Poshattiwar
                 </h1>
 
                 <p className="text-gray-400 text-justify text-lg mb-8 max-w-lg mx-auto">
