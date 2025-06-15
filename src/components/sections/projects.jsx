@@ -3,7 +3,7 @@ import GitHubSection from '../Contributions';
 export default function Projects() {
     return (
         <section 
-            className="min-h-screen flex flex-col gap-10 items-center justify-center py-20"
+            className=" min-h-screen flex flex-col gap-10 items-center justify-center py-20"
             id="projects"
         >
             <div className="max-w-5xl mx-auto px-4">

@@ -12,7 +12,7 @@ const GitHubSection = ({ username = "Mehulposh" }) => {
 //   };
 
   return (
-    <section className="w-full border border-white/10  rounded-xl px-5 ">
+    <section className="w-screen md:w-full border border-white/10  rounded-xl px-5 ">
       <div className="text-gray-400  ">
         <h2 className='font-bold text-xl text-center'>GitHub Contributions</h2>
         <p className='text-center mb-2'>My coding activity over the past year</p>
