@@ -9,13 +9,13 @@ export default function Home(){
                     <img src="/myprofileimage.jpg" alt="Mehul" className="h-50 border-5 border-white/11 p-1  rounded-[100%]"/>
 
                 </div>
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r 
+                <h1 className="text-5xl  md:text-7xl font-bold mb-6 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right" 
                 >
                     Hi I'am Mehul Poshattiwar
                 </h1>
 
-                <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                <p className="text-gray-400 text-justify text-lg mb-8 max-w-lg mx-auto">
                     Passionate Frontend Developer with 6+ months of hands-on experience 
                     building responsive web applications using React.js and modern JavaScript
                     frameworks. Proven track record of optimizing application performance, 
