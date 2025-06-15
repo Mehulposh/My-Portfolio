@@ -23,7 +23,7 @@ export default function Contact() {
     }
     return (
         <section 
-            className="min-h-screen flex items-center justify-center py-20"
+            className="min-h-screen w-screen flex items-center justify-center py-20"
             id="contact"
         >
             <div className=" min-w-[500px] md:min-w-[500px] px-4">
