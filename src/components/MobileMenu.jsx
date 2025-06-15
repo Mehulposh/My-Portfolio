@@ -2,15 +2,12 @@
 
 export default function MobileMEnu({menuOpen,setMenuOpen}){
 
+    if(!menuOpen) return null;
     
     return (
-        <div className={`fixed w-screen bg-gray-500  top-18 left-0 w-95 bg-[rgba(10 , 10,10,0.8)] 
-             flex flex justify-evenly  items-center  z-40 transition-all duration-300 
-            ease-in-out ${
-                menuOpen 
-                 ? 'h-15 opacity-100 pointer-events-auto' 
-                 : "h-0 opacity-0 pointer-events-none"
-            }`}
+        <div className={` fixed left-0 right-0 bg-gray-500/70 backdrop-blur top-16 py-2
+             flex  justify-evenly  items-center  z-30   animate-in slide-in-from-top duration-300
+             `}
         >
             {/* <button 
                 className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-ponter"
@@ -24,53 +21,37 @@ export default function MobileMEnu({menuOpen,setMenuOpen}){
             <a 
                 href="#home"
                 onClick={() => setMenuOpen(false)}
-                className={`text-2xl font-semibold text-white my-4 transform trandition-tramsform duration-300
-                    ${
-                       menuOpen 
-                       ? "opacity-100 translate-y-0"
-                       : "opacity-0 translate-y-5" 
-                    }`}
+                className={`text-base font-semibold text-white  transform transition-transform duration-300
+                    `}
                 >
-                    Home
+                Home
             </a>
 
              <a 
                 href="#about"
                 onClick={() => setMenuOpen(false)}
-                className={`text-2xl font-semibold text-white my-4 transform trandition-tramsform duration-300
-                    ${
-                       menuOpen 
-                       ? "opacity-100 translate-y-0"
-                       : "opacity-0 translate-y-5" 
-                    }`}
+                className={`text-base font-semibold text-white  transform transition-transform duration-300
+                    `}
                 >
-                    About
+                About
             </a>
 
              <a 
                 href="#projects"
                 onClick={() => setMenuOpen(false)}
-                className={`text-2xl font-semibold text-white my-4 transform trandition-tramsform duration-300
-                    ${
-                       menuOpen 
-                       ? "opacity-100 translate-y-0"
-                       : "opacity-0 translate-y-5" 
+                className={`text-base font-semibold text-white  transform transition-transform duration-300
                     }`}
                 >
-                    Projects
+                Projects
             </a>
 
              <a 
                 href="#contact"
                 onClick={() => setMenuOpen(false)}
-                className={`text-2xl font-semibold text-white my-4 transform trandition-tramsform duration-300
-                    ${
-                       menuOpen 
-                       ? "opacity-100 translate-y-0"
-                       : "opacity-0 translate-y-5" 
-                    }`}
+                className={`text-base font-semibold text-white  transform transition-transform duration-300
+                    `}
                 >
-                    Contact
+                Contact
             </a>
             
         </div>

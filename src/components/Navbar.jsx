@@ -2,9 +2,15 @@ import { useEffect } from "react"
 
 export default function Navbar({menuOpen,setMenuOpen}){
 
-    useEffect(() => {
-        document.body.style.overflow = menuOpen ? 'hidden' : '';
-    } , [menuOpen])
+    // useEffect(() => {
+    //     document.body.style.overflow = menuOpen ? 'hidden' : 'hidden';
+
+    //     return () => {
+    //         document.body.style.overflow = '';
+    //     };
+
+
+    // } , [menuOpen])
     return (
         <nav className="fixed top-0 w-screen z-40 bg-[rgba(10,10,10,0.8) ] backdrop-blur-lg border-b border-white/10 shadow-ls">
             <div className="max-w-5xl mx-auto px-4">
