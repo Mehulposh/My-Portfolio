@@ -23,10 +23,10 @@ export default function Contact() {
     }
     return (
         <section 
-            className="min-h-screen w-screen flex items-center justify-center py-20"
+            className="min-h-screen px-4  flex items-center justify-center py-20"
             id="contact"
         >
-            <div className=" min-w-[500px] md:min-w-[500px] px-4">
+            <div className="w-full">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent 
                     text-center"
