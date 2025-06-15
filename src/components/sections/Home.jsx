@@ -2,7 +2,7 @@ export default function Home(){
     return (
         <section
             id="home"
-            className="min-h-screen sm:mt-20 flex items-center justify-center relative"
+            className="min-h-screen pt-20  flex items-center justify-center relative"
         >
             <div className="text-center z-10 px-4">
                 <div className="flex justify-center mb-3  ">
