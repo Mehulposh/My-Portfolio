@@ -4,11 +4,11 @@ export default function MobileMEnu({menuOpen,setMenuOpen}){
 
     
     return (
-        <div className={`fixed w-screen  top-10 left-0 w-95 bg-[rgba(10 , 10,10,0.8)] 
-            px-2 flex flex justify-evenly items-center  z-40 transition-all duration-300 
+        <div className={`fixed w-screen bg-gray-500  top-18 left-0 w-95 bg-[rgba(10 , 10,10,0.8)] 
+             flex flex justify-evenly  items-center  z-40 transition-all duration-300 
             ease-in-out ${
                 menuOpen 
-                 ? 'h-20 opacity-100 pointer-events-auto' 
+                 ? 'h-15 opacity-100 pointer-events-auto' 
                  : "h-0 opacity-0 pointer-events-none"
             }`}
         >
