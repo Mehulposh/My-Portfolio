@@ -2,7 +2,7 @@ export default function Home(){
     return (
         <section
             id="home"
-            className="min-h-screen flex items-center justify-center relative"
+            className="min-h-screen sm:mt-20 flex items-center justify-center relative"
         >
             <div className="text-center z-10 px-4">
                 <div className="flex justify-center mb-3  ">
@@ -16,9 +16,12 @@ export default function Home(){
                 </h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                    I’m a frontend developer who loves crafting clean, scalable web
-                    applications. My goal is to build solutions that offer both
-                    exceptional performance and a delightful user experience.
+                    Passionate Frontend Developer with 6+ months of hands-on experience 
+                    building responsive web applications using React.js and modern JavaScript
+                    frameworks. Proven track record of optimizing application performance, 
+                    and creating intuitive user interfaces. Seeking to leverage expertise in
+                    React ecosystem and Agile methodologies to contribute to innovative web 
+                    development projects.
                 </p>
 
                 <div className='flex justify-center space-x-4 '>
