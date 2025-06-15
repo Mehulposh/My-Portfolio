@@ -17,7 +17,7 @@ function App() {
     <>
       {!isLoading && <LoadingScreen onComplete={() => setIsLoading(true)}/>}
       {' '}
-      <div className={`w-full scroll-smooth min-h-screen transition-opacity duration-700 
+      <div className={`w-screen scroll-smooth min-h-screen transition-opacity duration-700 
           ${isLoading ? 'opacity-100' : 'opacity-0'} bg-black text-gray-100`}
       >
         <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>

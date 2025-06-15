@@ -1,25 +1,26 @@
-import { useEffect } from "react"
+// import { useEffect } from "react"
 
 export default function MobileMEnu({menuOpen,setMenuOpen}){
 
     
     return (
-        <div className={`fixed top-0 left-0 w-full bg-[rgba(10 , 10,10,0.8)] 
-            z-40 flex flex-col items-center transition-all duration-300 
+        <div className={`fixed w-screen  top-10 left-0 w-95 bg-[rgba(10 , 10,10,0.8)] 
+            px-2 flex flex justify-evenly items-center  z-40 transition-all duration-300 
             ease-in-out ${
                 menuOpen 
-                 ? 'h-screen opacity-100 pointer-events-auto' 
+                 ? 'h-20 opacity-100 pointer-events-auto' 
                  : "h-0 opacity-0 pointer-events-none"
             }`}
         >
-            <button 
+            {/* <button 
                 className="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-ponter"
                 onClick={()=> setMenuOpen(false)}
                 aria-label="Close Menu"
                 >
                     &times;
-            </button>
+            </button> */}
 
+            
             <a 
                 href="#home"
                 onClick={() => setMenuOpen(false)}
@@ -71,6 +72,7 @@ export default function MobileMEnu({menuOpen,setMenuOpen}){
                 >
                     Contact
             </a>
+            
         </div>
     )
 }

@@ -21,7 +21,7 @@ export default function Home(){
                     exceptional performance and a delightful user experience.
                 </p>
 
-                <div className='flex-col justify-center space-x-4 md:flex'>
+                <div className='flex justify-center space-x-4 '>
                     <a 
                         href='#projects'
                         className='bg-blue-500 text-white py-3 px-6 rounded font-medium 
