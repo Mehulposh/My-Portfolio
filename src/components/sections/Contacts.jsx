@@ -99,13 +99,13 @@ export default function Contact() {
                 </form>
                 <p className="text-center text-gray-400 py-4"> OR </p>
                 <div className="p-2 flex justify-center items-center gap-2">
-                    <a href="#">
+                    <a href="https://instagram.com/mehulposhattiwar" target="_blank" rel="noopener">
                         <img src='/instagram-line.svg' className="bg-white size-10 "/>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/Mehulposh" target="_blank" rel="noopener">
                         <img src='/github-fill.svg' className="bg-white size-10 "/>
                     </a>
-                    <a href="https://www.linkedin.com/in/mehul-poshattiwar-885a891aa" target="_blank">
+                    <a href="https://www.linkedin.com/in/mehul-poshattiwar-885a891aa" target="_blank" rel="noopener">
                         <img src='/linkedin-box-line.svg' className="bg-white size-10  "/>
                     </a>
                 </div>
