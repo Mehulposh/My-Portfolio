@@ -107,10 +107,11 @@ export default function About() {
                         <div className="space-y-4 text-gray-400 ">
                             <div>
                                 <h4 className="font-semibold">
-                                    Fellowship at Crio.do (2024 - Present){' '}
+                                    Full Stack Intern - TheSmartBridge (February , 2026 - Present){' '}
                                 </h4>
                                 <p>
-                                    Learned and Developed React , Material Ui , and other Frontend Skills based applications.
+                                   Worked on mulltiple fullstack projects and developed strong proficiency in the techstack.
+                                    Also worked on some othe tools like - Redis , RbbitMq , Socket.io , Chess.js 
                                 </p>
                             </div>
                         </div>
