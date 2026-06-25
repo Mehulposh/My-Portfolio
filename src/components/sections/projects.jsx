@@ -27,7 +27,7 @@ export default function Projects() {
                             A full-stack collaborative workspace platform where teams can manage projects, track tasks, plan sprints, and communicate in real time — all in one place. Built with a modern dark UI, TeamFlow brings together Kanban boards, Agile sprint planning, live task updates, team chat, and analytics dashboards into a single enterprise-grade application.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {['React','Material Ui','Axios','Vercel'].map((tech,idx) => (
+                            {['React','Vite', 'TaiwindCSS', 'Node','Expressjs','MongoDB', 'Socket.io','Zustand', 'DND Kit', 'Zod', 'Cloudinary', ].map((tech,idx) => (
                                 <span 
                                     key={idx}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 
@@ -42,7 +42,7 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="https://botai-alpha-ten.vercel.app/"
+                                href="https://github.com/Mehulposh/Team-Management-Platforn.git"
                                 target="_blank"
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
@@ -62,7 +62,7 @@ export default function Projects() {
                            A full-stack competitive coding platform where developers battle each other live by solving coding problems in real-time. Watch your opponent code, submit solutions, and climb the global leaderboard.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {['React','Material Ui','Axios','Vercel','Router','Swiper JS','Date Fns'].map((tech,idx) => (
+                            {['React','Vite', 'TaiwindCSS', 'Node','Expressjs','MongoDB', 'Socket.io','Zustand', 'Monaco-editor' ,'Docker','Redis', 'Bullmq', 'Winston'].map((tech,idx) => (
                                 <span 
                                     key={idx}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 
@@ -77,7 +77,7 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="https://x-medify-sigma.vercel.app/"
+                                href="https://github.com/Mehulposh/Multiplayer-Coding-Battles.git"
                                 target="_blank"
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
@@ -98,7 +98,7 @@ export default function Projects() {
 
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {['React','Material Ui','Axios','Vercel','Render'].map((tech,idx) => (
+                            {['React','Vite', 'TaiwindCSS', 'Node','Expressjs','MongoDB', 'Highlight.js','Mdxeditor','Cloudinary','Slugify' ].map((tech,idx) => (
                                 <span 
                                     key={idx}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 
@@ -113,7 +113,7 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="https://mehulposhattiwar4995-me-qkart-frontend-v2.vercel.app/"
+                                href="https://github.com/Mehulposh/DevFolio.git"
                                 target='_blank'
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
@@ -127,13 +127,13 @@ export default function Projects() {
                         transition"
                     >
                         <h3 className="text-xl font-bold mb-2">
-                            EXPENSE TRACKER
+                           Medi Track
                         </h3>
                         <p className="text-gray-400 mb-4">
-                            An Expense tracker to track the expenses done day to day.
+                            MediTrack is a full-stack healthcare application with three distinct user roles: Patients, Doctors, and Admin/Clinic Staff. The system enables comprehensive clinic management, appointment scheduling, and patient record management.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
-                            {['React','Recharts','React Modal','React Icons','UUID','Vercel'].map((tech,idx) => (
+                            {['React','TypeScript','Vite', 'TaiwindCSS', 'Node','Expressjs','MongoDB', 'Zod','Hookform','Zustand' ].map((tech,idx) => (
                                 <span 
                                     key={idx}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 
@@ -148,7 +148,7 @@ export default function Projects() {
 
                         <div className="flex justify-between items-center">
                             <a 
-                                href="https://expense-tracker-beryl-phi-69.vercel.app/"
+                                href="https://github.com/Mehulposh/MediTrack.git"
                                 target="_blank"
                                 className="text-blue-500 hover:text-blue-300 transition-colors my-4"
                             >
