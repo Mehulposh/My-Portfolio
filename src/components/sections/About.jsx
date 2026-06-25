@@ -4,6 +4,7 @@ export default function About() {
         'HTML',
         'CSS',
         'JavaScript',
+        'TypeScript',
         'React',
         'Material Ui',
         'TailwindCSS',
