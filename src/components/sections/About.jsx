@@ -9,11 +9,17 @@ export default function About() {
         'TailwindCSS',
         'BootStrap',
         'Redux Toolkit',    
+        'Zustand'
     ];
 
     const backendSkills = [
         'MYSQL',
         'Python',
+        'NodeJs',
+        'ExpressJs',
+        'MongoDB',
+        'Redis',
+        
         
     ];
 
