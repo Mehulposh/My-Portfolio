@@ -21,10 +21,10 @@ export default function Projects() {
                         transition"
                     >
                         <h3 className="text-xl font-bold mb-2">
-                            BOTAi
+                            Team Management Platform
                         </h3>
                         <p className="text-gray-400 mb-4">
-                            A clone of Chat-gpt with possibilities of connecting LLM model
+                            A full-stack collaborative workspace platform where teams can manage projects, track tasks, plan sprints, and communicate in real time — all in one place. Built with a modern dark UI, TeamFlow brings together Kanban boards, Agile sprint planning, live task updates, team chat, and analytics dashboards into a single enterprise-grade application.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {['React','Material Ui','Axios','Vercel'].map((tech,idx) => (
@@ -56,10 +56,10 @@ export default function Projects() {
                         transition"
                     >
                         <h3 className="text-xl font-bold mb-2">
-                            MEDIFY
+                           MultiPlayer Codding Battle
                         </h3>
                         <p className="text-gray-400 mb-4">
-                            A appointment booking site for hospitals in U.S 
+                           A full-stack competitive coding platform where developers battle each other live by solving coding problems in real-time. Watch your opponent code, submit solutions, and climb the global leaderboard.
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {['React','Material Ui','Axios','Vercel','Router','Swiper JS','Date Fns'].map((tech,idx) => (
@@ -91,10 +91,11 @@ export default function Projects() {
                         transition"
                     >
                         <h3 className="text-xl font-bold mb-2">
-                            QKART
+                           DevFolio
                         </h3>
                         <p className="text-gray-400 mb-4">
-                            An E-commerce site with complete sign-up, login, cart and check-out functionality.
+                           A full-stack developer portfolio and blog content management system built with the MERN stack (MongoDB, Express.js, React, Node.js). It combines a polished public-facing portfolio site with a powerful private admin panel, giving developers complete control over their personal brand — from showcasing projects to publishing technical blog posts with SEO optimization, image management, and engagement analytics.
+
                         </p>
                         <div className="flex flex-wrap gap-2 mb-4">
                             {['React','Material Ui','Axios','Vercel','Render'].map((tech,idx) => (
