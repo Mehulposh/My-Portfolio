@@ -44,7 +44,7 @@ export default function Projects() {
                             <a 
                                 href="https://github.com/Mehulposh/Team-Management-Platforn.git"
                                 target="_blank"
-                                className="text-blue-500 hover:text-blue-300 transition-colors my-4"
+                                className="text-blue-500 hover:text-white p-3 transition-colors my-4  hover:rounded hover:font-bold   hover:bg-blue-500"
                             >
                                 View Project 
                             </a>
@@ -79,7 +79,7 @@ export default function Projects() {
                             <a 
                                 href="https://github.com/Mehulposh/Multiplayer-Coding-Battles.git"
                                 target="_blank"
-                                className="text-blue-500 hover:text-blue-300 transition-colors my-4"
+                                className="text-blue-500 hover:text-white p-3 transition-colors my-4  hover:rounded hover:font-bold   hover:bg-blue-500"
                             >
                                 View Project 
                             </a>
@@ -115,7 +115,7 @@ export default function Projects() {
                             <a 
                                 href="https://github.com/Mehulposh/DevFolio.git"
                                 target='_blank'
-                                className="text-blue-500 hover:text-blue-300 transition-colors my-4"
+                                className="text-blue-500 hover:text-white p-3 transition-colors my-4  hover:rounded hover:font-bold   hover:bg-blue-500"
                             >
                                 View Project 
                             </a>
@@ -150,7 +150,7 @@ export default function Projects() {
                             <a 
                                 href="https://github.com/Mehulposh/MediTrack.git"
                                 target="_blank"
-                                className="text-blue-500 hover:text-blue-300 transition-colors my-4"
+                                className="text-blue-500 hover:text-white p-3 transition-colors my-4  hover:rounded hover:font-bold   hover:bg-blue-500 "
                             >
                                 View Project 
                             </a>
