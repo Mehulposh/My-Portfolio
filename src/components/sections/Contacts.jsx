@@ -26,7 +26,7 @@ export default function Contact() {
             className="min-h-screen px-4  flex items-center justify-center py-20"
             id="contact"
         >
-            <div className="w-full">
+            <div className="w-full flex flex-col items-center">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r 
                     from-blue-500 to-cyan-400 bg-clip-text text-transparent 
                     text-center"
@@ -36,7 +36,7 @@ export default function Contact() {
 
                 <form
                     onSubmit={handleSubmit} 
-                    className="space-y-6">
+                    className="space-y-6 w-[50%]">
                     <div className="relative">
                         <input 
                             type="text"
@@ -97,10 +97,10 @@ export default function Contact() {
                         Send
                     </button>
                 </form>
-                <p className="text-center text-gray-400 py-4"> OR </p>
+                <p className="text-center text-gray-400 py-4">------ OR ------</p>
                 <div className="p-2 flex justify-center items-center gap-2">
                     <a href="https://instagram.com/mehulposhattiwar" target="_blank" rel="noopener">
-                        <img src='/instagram-line.svg' className="bg-white size-10 "/>
+                        <img src='/instagram-line.svg' className="bg-white size-10 "/> 
                     </a>
                     <a href="https://github.com/Mehulposh" target="_blank" rel="noopener">
                         <img src='/github-fill.svg' className="bg-white size-10 "/>
