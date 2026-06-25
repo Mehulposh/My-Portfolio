@@ -28,7 +28,7 @@ export default function Navbar({menuOpen,setMenuOpen}){
                     <div className="hidden md:flex items-center space-x-8">
                         <a 
                             href="#home" 
-                            className="text-gray-300 hov:text-white transition-colors"
+                            className="text-gray-300 p-3 hover:rounded hover:font-bold  transition-colors hover:bg-blue-500 "
                         >
                             {' '} 
                             Home
@@ -36,7 +36,7 @@ export default function Navbar({menuOpen,setMenuOpen}){
                         </a>
                         <a 
                             href="#about" 
-                            className="text-gray-300 hov:text-white transition-colors"
+                            className="text-gray-300 p-3 hover:rounded hover:font-bold  transition-colors hover:bg-blue-500 "
                         >
                             {' '} 
                             About
@@ -44,7 +44,7 @@ export default function Navbar({menuOpen,setMenuOpen}){
                         </a>
                         <a 
                             href="#projects" 
-                            className="text-gray-300 hov:text-white transition-colors"
+                            className="text-gray-300 p-3 hover:rounded hover:font-bold  transition-colors hover:bg-blue-500 "
                         >
                             {' '} 
                             Projects
@@ -52,7 +52,7 @@ export default function Navbar({menuOpen,setMenuOpen}){
                         </a>
                         <a 
                             href="#contact" 
-                            className="text-gray-300 hov:text-white transition-colors"
+                            className="text-gray-300 p-3 hover:rounded hover:font-bold  transition-colors hover:bg-blue-500 "
                         >
                             {' '} 
                             Contact
