@@ -112,10 +112,10 @@ export default function About() {
                                 <h4 className="font-semibold">
                                     Full Stack Intern - TheSmartBridge (February , 2026 - Present){' '}
                                 </h4>
-                                <p>
-                                   Worked on mulltiple fullstack projects and developed strong proficiency in the techstack.
-                                    Also worked on some othe tools like - Redis , RbbitMq , Socket.io , Chess.js 
-                                </p>
+                                <ul className="list-disc pl-3 text-gray-400 space-y-4">
+                                   <li>Worked on mulltiple fullstack projects and developed strong proficiency in the techstack.</li>
+                                    <li>Also worked on some othe tools like - Redis , RbbitMq , Socket.io , Chess.js </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
