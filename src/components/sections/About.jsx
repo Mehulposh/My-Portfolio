@@ -20,6 +20,8 @@ export default function About() {
         'ExpressJs',
         'MongoDB',
         'Redis',
+        'BullMq',
+        'Rabbit Mq'
         
         
     ];
